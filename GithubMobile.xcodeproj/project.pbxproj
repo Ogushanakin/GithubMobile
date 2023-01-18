@@ -76,9 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				71368D9B297579EF005E8ADB /* ProfileController.swift */,
+				71368DA129757AC5005E8ADB /* ProfileCell.swift */,
 				71368D9D29757A98005E8ADB /* ProfileHeaderView.swift */,
 				71368D9F29757AA7005E8ADB /* ProfileFooterView.swift */,
-				71368DA129757AC5005E8ADB /* ProfileCell.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";

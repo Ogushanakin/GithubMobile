@@ -28,7 +28,8 @@ final class ProfileFooterView: UIView {
     // MARK: - Helpers
     
     func configureUI() {
-        backgroundColor = .yellow
+        
+        
     }
     
     
