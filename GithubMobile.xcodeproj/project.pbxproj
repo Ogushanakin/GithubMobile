@@ -18,6 +18,7 @@
 		71368DA029757AA7005E8ADB /* ProfileFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71368D9F29757AA7005E8ADB /* ProfileFooterView.swift */; };
 		71368DA229757AC5005E8ADB /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71368DA129757AC5005E8ADB /* ProfileCell.swift */; };
 		71368DA42975D406005E8ADB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71368DA32975D406005E8ADB /* Extension.swift */; };
+		7145C85E297822D7007AB786 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7145C85D297822D7007AB786 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		71368D9F29757AA7005E8ADB /* ProfileFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFooterView.swift; sourceTree = "<group>"; };
 		71368DA129757AC5005E8ADB /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
 		71368DA32975D406005E8ADB /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7145C85D297822D7007AB786 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				71368DA129757AC5005E8ADB /* ProfileCell.swift */,
 				71368D9D29757A98005E8ADB /* ProfileHeaderView.swift */,
 				71368D9F29757AA7005E8ADB /* ProfileFooterView.swift */,
+				7145C85D297822D7007AB786 /* CollectionViewCell.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				71368D8A29757964005E8ADB /* ViewController.swift in Sources */,
 				71368D8629757964005E8ADB /* AppDelegate.swift in Sources */,
+				7145C85E297822D7007AB786 /* CollectionViewCell.swift in Sources */,
 				71368D9E29757A98005E8ADB /* ProfileHeaderView.swift in Sources */,
 				71368D8829757964005E8ADB /* SceneDelegate.swift in Sources */,
 				71368D9C297579EF005E8ADB /* ProfileController.swift in Sources */,
