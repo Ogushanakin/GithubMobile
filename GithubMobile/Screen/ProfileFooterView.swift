@@ -11,6 +11,9 @@ final class ProfileFooterView: UIView {
     
     // MARK: - Properties
     
+    let projectNames: [String] = ["GithubMobile", "GOAT", "QUİETFORM"]
+    let projectDescriptions: [String] = ["Github Mobile App Profile Screen UI Design", "Live Scoreboard Screen UI", "Product Detail Page Design"]
+    
     static let identifier = "CollectionViewCell"
     
     private let pinnedIcon: UIImageView = {
@@ -84,6 +87,8 @@ extension ProfileFooterView: UICollectionViewDelegate, UICollectionViewDataSourc
             return UICollectionViewCell()
         }
         cell.layer.cornerRadius = 6
+        cell.descriptionLabel.text = projectDescriptions[indexPath.row]
+        cell.projectnameLabel.text = projectNames[indexPath.row]
         return cell
     }
     
